@@ -176,7 +176,7 @@ export default function Home() {
   return (
     <section  >
       {/* hero section start */}
-      <div style={limage}>
+      <div style={limage} >
         <div className=' place-items-center bg-gradient-to-b from-red-400/0 to-black/100 shadow-black shadow-2xl' >
           <div className="container md:px-16 py-24 ">
             <div className='md:flex text-center md:text-start  justify-between gap-10'>

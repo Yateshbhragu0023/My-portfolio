@@ -41,7 +41,7 @@ export default function Header() {
 
 
   return (
-    <nav className='text-center place-items-center bg-black py-4  text-white'>
+    <nav className='text-center place-items-center bg-black py-4 sticky top-0 left-0 text-white'>
       <div className="container md:px-16 px-4 sm:px-5">
         <div className='flex justify-between  '>
           {/* logo section */}
