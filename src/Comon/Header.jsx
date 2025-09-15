@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { FaBars } from "react-icons/fa6";
 import Responsivemenu from './Responsivemenu';
+import pdf from "../../src/assets/PDF/Resume.pdf"
 
 
 export default function Header() {
@@ -38,6 +39,9 @@ export default function Header() {
     }
   ]
 
+  const PdfOpen = ()=>{
+    window.open(pdf , "_blank")
+  }
 
 
   return (
@@ -66,7 +70,7 @@ export default function Header() {
                 )
               }
               <li>
-                <button className=' btn'>Get Resume</button>
+                <button onClick={PdfOpen} className=' btn'>Get Resume</button>
               </li>
             </ul>
 
