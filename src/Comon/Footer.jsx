@@ -25,7 +25,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="www.youtube.com/@yateshtechhub" target="_blank" >
+                <a href="https://www.youtube.com/@yateshtechhub" target="_blank" >
                   <FaYoutube />
                 </a>
               </li>
