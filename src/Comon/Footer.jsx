@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa6'
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa6'
 
 export default function Footer() {
   return (
@@ -19,8 +19,17 @@ export default function Footer() {
                   <FaInstagram />
                 </a>
               </li>
-              <li><FaLinkedin /></li>
-              <li><FaFacebook /></li>
+              <li>
+                <a href="https://www.linkedin.com/in/yatesh-bhragu-41a923316/" target="_blank" >
+                  <FaLinkedin />
+                </a>
+              </li>
+              <li>
+                <a href="www.youtube.com/@yateshtechhub" target="_blank" >
+                  <FaYoutube />
+                </a>
+              </li>
+
             </ul>
           </div>
         </div>
