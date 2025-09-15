@@ -18,6 +18,8 @@ import { GrMysql } from 'react-icons/gr'
 import { MdOutlineHttps } from 'react-icons/md'
 import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom'
+import pdf from "../../src/assets/PDF/Resume.pdf"
+
 
 
 
@@ -172,6 +174,10 @@ export default function Home() {
 
   }
 
+   const PdfOpen = ()=>{
+      window.open(pdf , "_blank")
+    }
+
 
   return (
     <section  >
@@ -289,6 +295,7 @@ export default function Home() {
                   initial={{ y: 100, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{ type: "spring", duration: 0.4 }}
+                  onClick={PdfOpen}
                   className=' border ml-4 border-gray-300 text-white rounded-md font-semibold px-7 py-2  '> Download resume</motion.button>
               </div>
             </div>
